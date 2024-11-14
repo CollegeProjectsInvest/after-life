@@ -8,12 +8,13 @@ const config: Config = {
     ],
     theme: {
         extend: {
-            colors: {
-                background: 'var(--background)',
-                foreground: 'var(--foreground)',
+            fontFamily: {
+                merriweather: ['var(--font-merriweather)', 'serif'],
+                opensans: ['var(--font-opensans)', 'sans-serif'],
             },
         },
     },
     plugins: [],
 };
+
 export default config;
