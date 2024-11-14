@@ -1,19 +1,18 @@
-import './globals.css';
+import '@/styles/globals.css';
 
+import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'After Life',
-    description: '',
+    title: 'AfterLife',
+    description: 'Depois da vida', // TODO: melhorar descrição
 };
 
 export default function RootLayout({
     children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+}: PropsWithChildren): JSX.Element {
     return (
-        <html lang="en">
+        <html lang="pt-br">
             <body>{children}</body>
         </html>
     );
