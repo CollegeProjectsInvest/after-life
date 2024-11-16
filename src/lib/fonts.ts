@@ -7,7 +7,7 @@ export const fontMerriweather = Merriweather({
 });
 
 export const fontOpenSans = Open_Sans({
-    weight: ['400'],
+    weight: ['400', '700'],
     subsets: ['latin'],
     variable: '--font-opensans',
 });
