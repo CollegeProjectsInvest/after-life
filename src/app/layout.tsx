@@ -3,7 +3,7 @@ import '@/styles/globals.css';
 import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
 
-import { fontMerriweather, fontOpenSans } from '@/app/fonts';
+import { fontMerriweather, fontOpenSans } from '@/lib/fonts';
 
 export const metadata: Metadata = {
     title: 'AfterLife',
