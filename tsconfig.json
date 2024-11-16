@@ -10,12 +10,14 @@
         "strict": true,
         "noEmit": true,
         "esModuleInterop": true,
-        "module": "esnext",
+        "module": "ESNext",
+        "target": "ESNext",
         "moduleResolution": "bundler",
         "resolveJsonModule": true,
         "isolatedModules": true,
         "jsx": "preserve",
         "incremental": true,
+        "baseUrl": ".",
         "plugins": [
             {
                 "name": "next"
@@ -31,7 +33,7 @@
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        ".next/types/**/*.ts"
+        ".next/types/**/*.ts",
     ],
     "exclude": [
         "node_modules"
