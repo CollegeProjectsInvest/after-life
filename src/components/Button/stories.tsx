@@ -14,6 +14,9 @@ export default {
             control: false,
         },
     },
+    args: {
+        variant: 'outlined',
+    },
 } as Meta<ButtonProps>;
 
 export const Default: StoryObj<typeof Button> = {
