@@ -10,7 +10,7 @@ export default {
         children: {
             control: 'text',
         },
-        icon: {
+        Icon: {
             control: false,
         },
     },
@@ -28,12 +28,12 @@ export const Default: StoryObj<typeof Button> = {
 export const WithIcon: StoryObj<typeof Button> = {
     args: {
         children: 'Icon Button',
-        icon: <Settings />,
+        Icon: Settings,
     },
 };
 
 export const OnlyIcon: StoryObj<typeof Button> = {
     args: {
-        icon: <Settings />,
+        Icon: Settings,
     },
 };
