@@ -10,7 +10,7 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 export function Button({ children, Icon, variant = 'outlined', ...rest }: ButtonProps): JSX.Element {
     const baseClass = 'transition ease-in-out duration-200 flex items-center gap-2 rounded-full text-xs md:text-base';
     const variantClasses = {
-        outlined: 'border-2 border-red-800 text-red-800 hover:border-zinc-200 hover:text-zinc-200',
+        outlined: 'border border-red-800 text-red-800 hover:border-zinc-200 hover:text-zinc-200',
         contained: 'bg-red-800 hover:bg-zinc-200 text-white font-bold',
     };
     const iconClass = 'flex-shrink-0 w-5 h-5 md:w-6 md:h-6';
